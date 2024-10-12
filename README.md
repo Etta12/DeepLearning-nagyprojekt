@@ -14,6 +14,12 @@ The main difficulty in this task will be the small dataset size, think through w
 A Kaggle oldalán találtunk sakkfiguráról készített adatokat, innen jött az ötlet hogy egy olyan osztályozót szeretnénk létrehozni, ami 3 sakkfigurát: a bástyát, futót és huszárt meg tudja különböztetni egymástól. A feladat leírásának eleget téve készítettünk egy összesen 150 képből álló adathalmazt, ahol minden figuráról összesen 50 kép készült. A képek készítése során 5 különböző sakkészlet bábuit használtuk fel,  és a változatos adathalmaz elérése érdekében igyekeztünk minél különbözőbb szögekből, pozíciókból és hátterekkel lefotózni őket. Végül az elkészült képeket véletlenszerű sorrendben összesítettük, majd elkészítettük a címkéket tartalmazó Excel fájlt is.
 A későbbi kísérletezésekhez a már említett, Kaggle oldalán talált képes adatot is letöltöttük Python kód segítségével.
 
+Az adathalmazt méreténél fogva nem tudtuk feltölteni ide, de a következő Google Drive linket elérhető: 
+https://drive.google.com/drive/folders/1r7_hwPG0_pSRdOsk5v7ltxyH0n5JP01l?usp=sharing
+A tartalma: 
+  - `images`: Ez a mappa tartalmazza a 150 képet.
+  - `labels.xlsx`: Tartalmazza a 150 kép mindegyikéhez tartozó címkét.
+
 ## Fájlok
 - `requirements.txt`: A projekthez szükséges Python csomagok és függőségek.
 - `Dockerfile`: A konténerizált környezet definiálása a futtatáshoz.
