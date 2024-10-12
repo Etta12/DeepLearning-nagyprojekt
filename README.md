@@ -15,8 +15,8 @@ A Kaggle oldalán találtunk sakkfiguráról készített adatokat, innen jött a
 A későbbi kísérletezésekhez a már említett, Kaggle oldalán talált képes adatot is letöltöttük Python kód segítségével.
 
 ## Fájlok
-- 'images': Tárolja a 150 db általunk előállított képekből álló tanulóhalmazt.
-- 'labels.xlsx': Tárolja a 150 képhez tartozó címkéket. 
+- `images`: Tárolja a 150 db általunk előállított képekből álló tanulóhalmazt.
+- `labels.xlsx`: Tárolja a 150 képhez tartozó címkéket. 
 - `requirements.txt`: A projekthez szükséges Python csomagok és függőségek.
 - `Dockerfile`: A konténerizált környezet definiálása a futtatáshoz.
 - `data_acquisition.ipynb`: A Kaggle adathalmaz letöltéséhez használt Jupyter notebook.
