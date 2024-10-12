@@ -16,6 +16,7 @@ A későbbi kísérletezésekhez a már említett, Kaggle oldalán talált képe
 
 Az adathalmazt méreténél fogva nem tudtuk feltölteni ide, de a következő Google Drive linket elérhető: 
 https://drive.google.com/drive/folders/1r7_hwPG0_pSRdOsk5v7ltxyH0n5JP01l?usp=sharing
+
 A tartalma: 
   - `images`: Ez a mappa tartalmazza a 150 képet.
   - `labels.xlsx`: Tartalmazza a 150 kép mindegyikéhez tartozó címkét.
