@@ -1,11 +1,11 @@
 # Image classification "in-the-wild" 
 
 - Neurosünök:
-  - Wiederschitz Diána, Neptun kód: [XXXXXX]
+  - Wiederschitz Diána, Neptun kód: E0YKJT
   - Oroszki Marietta, Neptun kód: CZYYIF
 
 ## Projekt leírás
-A Kaggel-n találtunk sakk figuráról gyűjtött adatokat, innen jött az ötlet hogy egy olyan osztályozót szeretnénk tanítani, ami a bástyát, futót és huszárt meg tudja különböztetni. Ehhez a talált adatot python kód segítségével letöltöttük, hogy ezen tudjuk tanítani a neurális háló, később pedig az általunk készített képeken szeretnénk tesztelni.
+A Kaggle-n találtunk sakkfiguráról gyűjtött adatokat, innen jött az ötlet hogy egy olyan osztályozót szeretnénk tanítani, ami a bástyát, futót és huszárt meg tudja különböztetni. Ehhez a talált adatot python kód segítségével letöltöttük, hogy ezen tudjuk tanítani a neurális hálót, később pedig az általunk készített képeken szeretnénk tesztelni.
 
 
 ## Files and Functions in the Repository
