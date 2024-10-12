@@ -11,15 +11,13 @@ The main difficulty in this task will be the small dataset size, think through w
   - Oroszki Marietta, Neptun kód: CZYYIF
 
 ## Projekt leírás
-A Kaggle oldalán találtunk sakkfiguráról készített adatokat, innen jött az ötlet hogy egy olyan osztályozót szeretnénk létrehozni, ami 3 sakkfigurát: a bástyát, futót és huszárt meg tudja különböztetni egymástól. A feladat leírásának eleget téve készítettünk egy összesen 150 képből álló adathalmazt, ahol minden figuráról összesen 50 kép készült. A képek készítése során 5 különböző sakkészlet bábuit használtuk fel,  és a változatos adathalmaz elérése érdekében igyekeztünk minél különbözőbb szögekből, pozíciókból és hátterekkel lefotózni őket. 
+A Kaggle oldalán találtunk sakkfiguráról készített adatokat, innen jött az ötlet hogy egy olyan osztályozót szeretnénk létrehozni, ami 3 sakkfigurát: a bástyát, futót és huszárt meg tudja különböztetni egymástól. A feladat leírásának eleget téve készítettünk egy összesen 150 képből álló adathalmazt, ahol minden figuráról összesen 50 kép készült. A képek készítése során 5 különböző sakkészlet bábuit használtuk fel,  és a változatos adathalmaz elérése érdekében igyekeztünk minél különbözőbb szögekből, pozíciókból és hátterekkel lefotózni őket. Végül az elkészült képeket véletlenszerű sorrendben összesítettük, majd elkészítettük a címkéket tartalmazó Excel fájlt is.
 A későbbi kísérletezésekhez a már említett, Kaggle oldalán talált képes adatot is letöltöttük Python kód segítségével.
 
 ## Fájlok
-- `images`: Tárolja a 150 db általunk előállított képekből álló tanulóhalmazt.
-- `labels.xlsx`: Tárolja a 150 képhez tartozó címkéket. 
 - `requirements.txt`: A projekthez szükséges Python csomagok és függőségek.
 - `Dockerfile`: A konténerizált környezet definiálása a futtatáshoz.
-- `data_acquisition.ipynb`: A Kaggle adathalmaz letöltéséhez használt Jupyter notebook.
+- `data_acquisition.ipynb`: A saját és a Kaggle adathalmaz letöltéséhez használt Jupyter notebook.
 - `data_preparation.ipynb`: Az adatok előkészítéséhez használt Jupyter notebook.
 
 ## Használat
