@@ -37,4 +37,5 @@ A tartalma:
 
 ## Kapcsolódó munkák
 https://arxiv.org/abs/1512.03385
+
 https://www.sciencedirect.com/science/article/pii/S0031320316303922
