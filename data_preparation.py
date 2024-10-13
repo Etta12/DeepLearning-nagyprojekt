@@ -59,4 +59,4 @@ if __name__ == "__main__":
     train_loader, val_loader, test_loader = create_data_loaders(images_folder, labels_file)
 
     for images, labels in test_loader:
-        print(f'Loading and preprocessing is done!')
+        print(f'Data loading and data preparation is done!')
