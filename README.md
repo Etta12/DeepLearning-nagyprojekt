@@ -23,13 +23,14 @@ A tartalma:
 
 ## Fájlok
 - `data_acquisition.ipynb`: A saját és a Kaggle adathalmaz letöltéséhez használt Jupyter notebook.
-- `data_preparation.py`: Az adatok előkészítéséhez használt Jupyter notebook.
+- `data_preparation.py`: Az adatok előkészítéséhez használt Python script.
+- `data_preparation_with_baseline_model.py`: Az adatok előkészítéséhez és a az első, kezdetleges modell kiértékeléséhez használt Python script.
 - `requirements.txt`: A projekthez szükséges Python csomagok és függőségek.
 - `Dockerfile`: A konténerizált környezet definiálása a futtatáshoz.
 
 ## Használat és magyarázat
 0. A data_acquisition.ipynb fájl a Kaggle oldaláról képes elérni a már említett adathalmazt, de egyelőre még nincs további felhasználása ennek a fájlnak, illetve az adatnak.  
-1. A data_preparation.py fájl Docker környezetbeli futtatásához szükséges egy mappába letölteni magát a .py fájlt, a Drive linken elérhető adaatokat (images mappa és tartalma, labels.xlsx), illetve a requirements.txt-t és a Dockerfile-t.
+1. A data_preparation.py vagy data_preparation_with_baseline_model.py fájl Docker környezetbeli futtatásához szükséges egy mappába letölteni magát a .py fájlt, a Drive linken elérhető adatokat (images mappa és tartalma, labels.xlsx), illetve a requirements.txt-t és a Dockerfile-t.
 2. Ezután szükséges a mappába navigálva az alábbi sorokat parancssorból futtatni:
     ```bash
     docker build -t chess_project .
