@@ -1,8 +1,12 @@
-numpy
-pandas
-openpyxl
-Pillow
-scikit-learn
 torch
 torchvision
+torchmetrics
+pytorch-lightning
+wandb
+pandas
 matplotlib
+seaborn
+scikit-learn
+Pillow
+numpy 
+openpyxl
