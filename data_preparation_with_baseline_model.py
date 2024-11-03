@@ -191,6 +191,7 @@ if __name__ == "__main__":
     # TEST THE MODEL
     trainer.test(lit_model, test_loader)
     print('Model testing is done!')
+    wandb.finish()
     
     # PREDICTIONS
     predictions, true_labels = lit_model.get_test_predictions()
