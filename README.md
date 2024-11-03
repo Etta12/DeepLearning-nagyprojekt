@@ -37,7 +37,7 @@ A tartalma:
     docker run --rm chess_project
 
 ### Megjegyzés
-A validációs halmazon így sikerült 60%-os pontosságot elérni, a teszthalmazon pedig ez 47%-nak felel meg.
+A validációs halmazon így sikerült 60%-os pontosságot elérni, a teszthalmazon ez 47%-nak felel meg.
 
 ## Kapcsolódó munkák
 https://arxiv.org/abs/1512.03385
