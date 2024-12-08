@@ -30,7 +30,6 @@ A tartalma:
 - `data_preparation_with_baseline_model.py`: Az adatok előkészítéséhez és a az első, kezdetleges modell kiértékeléséhez használt Python script. (2. mérföldkő)
 - `requirements.txt`: A 2. mérföldkőhöz szükséges Python csomagok és függőségek.
 - `Dockerfile`: A konténerizált környezet definiálása a futtatáshoz (2. mérföldkő).
-- `one_of_the_best_modell.ckpt`: A tanítás során kimentettünk többnyire az összes modellt és ez lenne azok közül a modellek közül az egyik legjobb.
 - `Proba.ipynb`: Ketten dolgoztunk a projekten, ezért könnybnek találtuk, ha ugyanabból a vázból két féle képpen is elindulunk és ezáltal több féle eredmény várt elérhetővé.
 
 ## Használat a 2. mérföldkőhöz:
