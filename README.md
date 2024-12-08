@@ -27,6 +27,8 @@ A tartalma:
 - `data_preparation_with_baseline_model.py`: Az adatok előkészítéséhez és a az első, kezdetleges modell kiértékeléséhez használt Python script. (2. mérföldkő)
 - `requirements.txt`: A projekthez szükséges Python csomagok és függőségek.
 - `Dockerfile`: A konténerizált környezet definiálása a futtatáshoz.
+- `one_of_the_best_modell.ckpt`: A tanítás során kimentettünk többnyire az összes modellt és ez lenne azok közül a modellek közül az egyik legjobb.
+- `Proba.ipynb`: Ketten dolgoztunk a projekten, ezért könnybnek találtuk, ha ugyanabból a vázból két féle képpen is elindulunk és ezáltal több féle eredmény várt elérhetővé.
 
 ## Használat és magyarázat
 0. A data_acquisition.ipynb fájl a Kaggle oldaláról képes elérni a már említett adathalmazt, de egyelőre még nincs további felhasználása ennek a fájlnak, illetve az adatnak.  
