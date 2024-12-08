@@ -22,26 +22,26 @@ A tartalma:
   - `labels.xlsx`: Tartalmazza a 150 kép mindegyikéhez a címkéket.
 
 ## Fájlok
-- `data_acquisition.ipynb`: A saját és a Kaggle adathalmaz letöltéséhez használt Jupyter notebook.
+
+- `final.ipynb`: A végső feladatmegoldást tartalmazó Jupyter notebook.
+
+- `data_acquisition.ipynb`: A Kaggle adathalmaz letöltéséhez használt Jupyter notebook, az adat végül nem került további felhasználásra.
 - `data_preparation.py`: Az adatok előkészítéséhez használt Python script. (1. mérföldkő)
 - `data_preparation_with_baseline_model.py`: Az adatok előkészítéséhez és a az első, kezdetleges modell kiértékeléséhez használt Python script. (2. mérföldkő)
-- `requirements.txt`: A projekthez szükséges Python csomagok és függőségek.
-- `Dockerfile`: A konténerizált környezet definiálása a futtatáshoz.
+- `requirements.txt`: A 2. mérföldkőhöz szükséges Python csomagok és függőségek.
+- `Dockerfile`: A konténerizált környezet definiálása a futtatáshoz (2. mérföldkő).
 - `one_of_the_best_modell.ckpt`: A tanítás során kimentettünk többnyire az összes modellt és ez lenne azok közül a modellek közül az egyik legjobb.
 - `Proba.ipynb`: Ketten dolgoztunk a projekten, ezért könnybnek találtuk, ha ugyanabból a vázból két féle képpen is elindulunk és ezáltal több féle eredmény várt elérhetővé.
 
-## Használat és magyarázat
-0. A data_acquisition.ipynb fájl a Kaggle oldaláról képes elérni a már említett adathalmazt, de egyelőre még nincs további felhasználása ennek a fájlnak, illetve az adatnak.  
+## Használat a 2. mérföldkőhöz:
 1. A data_preparation_with_baseline_model.py fájl Docker környezetbeli futtatásához szükséges egy mappába letölteni magát a .py fájlt, a Drive linken elérhető adatokat (images mappa és tartalma, labels.xlsx), illetve a requirements.txt-t és a Dockerfile-t.
 2. Ezután szükséges a mappába navigálva az alábbi sorokat parancssorból futtatni:
     ```bash
     docker build -t chess_project .
     docker run --rm chess_project
 
-### Megjegyzés
-A validációs halmazon így sikerült 60%-os pontosságot elérni, a teszthalmazon ez 47%-nak felel meg.
+## Használat a final.ipynb-hez:
+A Drive linken lévő adatokat fel szükséges tölteni a saját drivera, majd a megnyitott Jupyter notebookban szükséges a megfelelő fülnél megadni az images mappa és a labels.txt pontos elérési útját.
 
-## Kapcsolódó munkák
-https://arxiv.org/abs/1512.03385
-
-https://www.sciencedirect.com/science/article/pii/S0031320316303922
+## Megjegyzés
+A végső feladatmegoldás nem konténerizált környezetben zajlott, sajnos nem tudtuk megoldani a GPU használatát, így Colabban dolgoztunk.
