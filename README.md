@@ -24,6 +24,9 @@ A tartalma:
 ## Fájlok
 
 - `final.ipynb`: A végső feladatmegoldást tartalmazó Jupyter notebook.
+- `Dokumentacio.pdf`: A végső feladatmegoldáshoz tartozó dokumentáció.
+
+------------------------------------------------
 
 - `data_acquisition.ipynb`: A Kaggle adathalmaz letöltéséhez használt Jupyter notebook, az adat végül nem került további felhasználásra.
 - `data_preparation.py`: Az adatok előkészítéséhez használt Python script. (1. mérföldkő)
